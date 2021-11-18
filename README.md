@@ -5,9 +5,9 @@
  ## How to build and deploy the API
  
  ### Prerequisites
- JDK 11 or 17
- MySQL 8
- git 
+ * JDK 11 or 17
+ * MySQL 8
+ * git 
  
  ### Configurations 
  tested only on Windows 10 OS.
