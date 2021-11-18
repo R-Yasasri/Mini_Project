@@ -9,11 +9,20 @@
  MySQL 8
  git 
  
- ### Configurations
- ##### JAVA
- ##### MySQL
+ ### Configurations 
+ tested only on Windows 10 OS.
  
- ### Steps (tested with Windows OS)
+ ##### JAVA
+ Please ensure that you have set up the JAVA_HOME environment variable to your Java installation (ex: C:\Program Files\Java\jdk-11.0.12) and set it in the path environment variable (%JAVA_HOME%\bin). These configurations are required to run the gradle wrapper (gradlew command) to build the project.
+ ##### MySQL
+ Please create a database named as **petstore** inside your MySQL 8 RDBMS. Change following properties (username,password and port number) inside the application.properties file according to your MySQL 8 installation configurations.
+ 
+quarkus.datasource.username = 'your user name here'
+quarkus.datasource.password = 'your password here'
+quarkus.datasource.jdbc.url = jdbc:mysql://localhost:'your port number here'/petstore?verifyServerCertificate=false&autoReconnect=true&useSSL=false
+ 
+ 
+ ### Steps
  
  ##### 1. clone the git repository
  git clone https://github.com/R-Yasasri/Mini_Project.git
