@@ -8,7 +8,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-@Path("/v1/pettypes")
+@Path("/pettypes")
 @Produces("application/json")
 public class PetTypeResource {
     @Inject
