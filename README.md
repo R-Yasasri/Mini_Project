@@ -2,6 +2,18 @@
 # Mini_Project 
  This is the final assignment mini project for the SCS 3203 Middleware course
  
+ ## How to build and deploy the API
+ 
+ ### Prerequisites
+ JDK 11 or 17
+ MySQL 8
+ git 
+ 
+ ##### 1. clone the git repository
+ git clone https://github.com/R-Yasasri/Mini_Project.git
+ ##### 2. go to the 'petstore-master' directory
+ cd petstore-master
+ 
  ## CURL commands with example parameters
 
 ##### load all pet types
