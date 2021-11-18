@@ -9,12 +9,23 @@
  MySQL 8
  git 
  
- ### Steps
+ ### Configurations
+ ##### JAVA
+ ##### MySQL
+ 
+ ### Steps (tested with Windows OS)
  
  ##### 1. clone the git repository
  git clone https://github.com/R-Yasasri/Mini_Project.git
  ##### 2. go to the 'petstore-master' directory
  cd petstore-master
+ ##### 3. build the project
+ gradlew build -Dquarkus.package.type=uber-jar
+ ##### 4. run the project
+ java -jar build/petstore-runner.jar
+ 
+ Now the project will be run. You can test it by going this URL: 'http://localhost:8080/pets'
+ 
  
  ## CURL commands with example parameters
 
