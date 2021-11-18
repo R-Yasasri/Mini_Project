@@ -9,6 +9,8 @@
  MySQL 8
  git 
  
+ ### Steps
+ 
  ##### 1. clone the git repository
  git clone https://github.com/R-Yasasri/Mini_Project.git
  ##### 2. go to the 'petstore-master' directory
