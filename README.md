@@ -35,6 +35,14 @@ quarkus.datasource.jdbc.url = jdbc:mysql://localhost:'your port number here'/pet
  
  Now the project will be run. You can test it by going this URL: 'http://localhost:8080/pets'
  
+ ## How to run the test suite
+ 
+ There are two classes which are PetResourceTest.java for testing Pet APIs and PetTypeResourceTest.java for testing PetType APIs. Each class contains 6 tests so there are 12  tests in the test suite. All these tests are executed automatically when the application is built (when executing the 3rd step of 'How to build and Deploy API' section above).
+ 
+ * if you want to to run all the tests again, execute **gradlew test** command in the terminal within the 'petstore-master' directory.
+ * if you want to only run the tests for Pet API, execute **gradlew :test --tests "org.acme.PetResourceTest"** command in the terminal within the 'petstore-master' directory.
+ * if you want to only run the tests for PetTypes API, execute **gradlew :test --tests "org.acme.PetTypeResourceTest"** command in the terminal within the 'petstore-master' directory. 
+
  
  ## CURL commands with example parameters
 
